@@ -45,9 +45,17 @@ label start:
 
     play sound wind01
 
+    play music Clair_de_Lune fadein 0.5
+
+    stop Clair_de_Lune fadeout 0.5
+
     show black bb with dissolve
 
     hide black
+
+    scene invisible
+
+    hide invisible
 
     scene invisible
 
